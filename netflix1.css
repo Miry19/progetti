@@ -1,0 +1,60 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+body{
+    font-family: 'netflixFont';
+}
+
+@font-face {
+    font-family: netflixFont;
+    src: url(./font-netflix/NetflixSans-Medium.otf);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.listGrafic{
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+.home-bar{
+    margin: 0px 10px;
+}
+.homeDecoration{
+    text-decoration: none;
+}
+
+.homeDecoration:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 3px 7px;
+}
+
+.filmImgDimention{
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+}
+
+.filmImgDimention:hover{
+    border-bottom: 2px solid red;
+}
+
+.filmDisposition{
+    display: flex;
+    flex-wrap: none;
+    overflow-x: scroll;
+}
+
+
+.dimention-momentanea{
+    width: 150px;
+    height: 30px;
+}
